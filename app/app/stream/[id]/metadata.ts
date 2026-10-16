@@ -14,7 +14,7 @@ export async function generateMetadata({
 
     if (!stream) {
       return {
-        title: "Stream not found | FlowStar",
+        title: "Stream not found",
         description: "This stream may not exist or may have expired.",
       };
     }
@@ -42,7 +42,7 @@ export async function generateMetadata({
     const description = `${amount} ${stream.token.symbol} streaming to ${shortenAddress(stream.recipient)}`;
 
     return {
-      title: `Stream #${stream.id} | FlowStar`,
+      title: `Stream #${stream.id}`,
       description,
       metadataBase: new URL("https://flowstar.app"),
       openGraph: {
@@ -69,7 +69,7 @@ export async function generateMetadata({
   } catch (error) {
     console.error("Failed to generate metadata:", error);
     return {
-      title: "Stream | FlowStar",
+      title: "Stream",
       description: "Stream tokens by the second on Stellar",
     };
   }
