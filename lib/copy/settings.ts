@@ -3,7 +3,7 @@
 
 export const settingsCopy = {
   metadata: {
-    title: "Settings — FlowStar",
+    title: "Settings",
     description: "Configure webhooks and notification preferences.",
   },
 
