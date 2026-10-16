@@ -6,6 +6,8 @@ export const analyticsCopy = {
   heading: "Platform analytics",
   subheading: "Public signals that highlight traction, usage, and stream growth.",
 
+  rangeSelectLabel: "Time range",
+
   rangeOptions: {
     sevenDays: "7 days",
     thirtyDays: "30 days",

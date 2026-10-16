@@ -320,6 +320,7 @@ function StreamCardInner({
           <div className="min-w-0 flex-1">
             <ProgressBar
               value={progress}
+              label="Stream unlock progress"
               marker={withdrawnFrac}
               indeterminateShimmer={status === 'streaming'}
             />
@@ -426,6 +427,7 @@ function StreamCardInner({
           <div className="mt-4">
             <ProgressBar
               value={progress}
+              label="Stream unlock progress"
               marker={withdrawnFrac}
               indeterminateShimmer={status === 'streaming'}
             />

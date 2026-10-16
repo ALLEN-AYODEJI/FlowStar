@@ -245,7 +245,7 @@ export default function AnalyticsPage() {
         </div>
         <div className="w-full max-w-[180px]">
           <Select value={range} onValueChange={(v) => v !== null && setRange(v)}>
-            <SelectTrigger>
+            <SelectTrigger aria-label={analyticsCopy.rangeSelectLabel}>
               <SelectValue />
             </SelectTrigger>
             <SelectContent>
